@@ -1,0 +1,4 @@
+<resources>
+	<color name="text_color">#000000</color>
+	<drawable name="tweet_text_dark">#ff555555</drawable>
+</resources>     

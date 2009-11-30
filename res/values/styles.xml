@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res/com.twidroidpro">
+    <style name="SpecialDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/filled_box</item>
+        <item name="android:colorForeground">@drawable/tweet_text_dark</item>        
+    </style>
+</resources>
