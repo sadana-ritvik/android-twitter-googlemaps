@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="version_info">v1.0.0</string>
+	<string name="app_name">Google Maps 4 Twidroid</string>
+	<string name="app_description">Insert you current location into Twidroid Tweets.</string>
+	<string name="chooser_label">Insert Current Location</string>
+	<string name="activity_title">Your Current Location</string>
+	<string name="map_key_real">-- YOUR GOOGLE MAP KEY --</string>
+	<string name="dialog_map_refresh">Update Position</string>
+	<string name="dialog_map_annotate">Annotate Location</string>
+	<string name="dialog_insertmaplink">Insert Maplink</string>	
+	<string name="error_nolocationfix">No GPS or GPS signal weak. Make sure your phone has a clear view of the sky and there are no nearby natural or man-made obstacles such as dense tree-cover or a really large building.</string>	
+</resources>
