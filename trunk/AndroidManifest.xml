@@ -10,7 +10,10 @@
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />                	
     			<action android:name="com.twidroidplugins.maps.LocationDialog"/>
+
+				<!-- special mime-type so Twidroid knows this intent can be used to pull info into tweets -->
                 <data android:mimeType="application/twidroid-plugin.get" />
+
                 <action android:name="android.intent.action.GET_CONTENT" />
             </intent-filter>
         </activity>
