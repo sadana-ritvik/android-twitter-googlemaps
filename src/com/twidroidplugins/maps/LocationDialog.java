@@ -66,6 +66,17 @@ public class LocationDialog extends MapActivity {
 				{
 					myLocationOverlay.disableMyLocation();
 					Intent returnData = new Intent();
+					
+					/* 
+					 * Send data back to Twidroid					
+					 *
+				     *  Supported:
+					 *	Intent.EXTRA_TEXT use to return text to Twidroid
+					 *	setData to return a URL
+					 *	Extra Strings: "latitude", "longitude" to return location information				
+					 *
+					 */
+					
 					returnData.setData(Uri.parse("http://maps.google.com?q=" + myLocationOverlay.getLastFix().getLatitude()+ "," +myLocationOverlay.getLastFix().getLongitude() ));
 
 					returnData.putExtra("latitude", myLocationOverlay.getLastFix().getLatitude());
