@@ -1,0 +1,1 @@
+This is a sample plugin for the popular Twitter client "Twidroid" for Android phones. The plugin gets the current location either via GPS or coarse location and shows it on a Google Map. The location can then be transfered to Twidroid either as a map-link or just an geo location annotation for a Tweet.
